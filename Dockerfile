@@ -1,5 +1,8 @@
 FROM php:7.1-fpm-alpine
-LABEL Description="image for moodle cronjobs" Version="1.0"
+LABEL Description="image for moodle cronjobs"
+LABEL image="moodle-php-fpm-cron"
+LABEL versie="0.1"
+LABEL datum="2019 10 01"
 
 ARG DOCUMENT_ROOT=/var/www/html
 
